@@ -2,7 +2,6 @@
 #include <fstream>
 #include <sstream>
 #include <iostream>
-#include <algorithm>
 
 std::map<std::string, std::vector<std::pair<std::string, std::string>>> TagManager::tags;
 
@@ -116,4 +115,9 @@ void TagManager::handleTagCommand(int argc, char* argv[]) {
         std::cerr << "Error: Unknown option '" << option << "'" << std::endl;
         std::cerr << "Usage: pbf tag [-a <path> <tag> <color> | -r <path> <tag>]" << std::endl;
     }
+}
+
+// Implement the getTags() method
+const std::map<std::string, std::vector<std::pair<std::string, std::string>>>& TagManager::getTags() {
+    return tags;
 }
