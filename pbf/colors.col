@@ -1,0 +1,26 @@
+# File Type Colors
+show_directory_col 0 255 0 Directory Color
+show_cpp_col 255 0 0 C++ File Color
+show_python_col 0 0 255 Python File Color
+show_js_col 255 255 0 JavaScript File Color
+show_txt_col 128 128 128 Text File Color
+show_file_col 255 255 255 Regular File Color
+show_hidden_col 128 128 128 Hidden File Color
+
+# Tag Colors (16 predefined colors)
+tag_1_col 255 0 0 Tag 1 Color
+tag_2_col 0 255 0 Tag 2 Color
+tag_3_col 0 0 255 Tag 3 Color
+tag_4_col 255 255 0 Tag 4 Color
+tag_5_col 255 0 255 Tag 5 Color
+tag_6_col 0 255 255 Tag 6 Color
+tag_7_col 128 0 0 Tag 7 Color
+tag_8_col 0 128 0 Tag 8 Color
+tag_9_col 0 0 128 Tag 9 Color
+tag_10_col 128 128 0 Tag 10 Color
+tag_11_col 128 0 128 Tag 11 Color
+tag_12_col 0 128 128 Tag 12 Color
+tag_13_col 192 192 192 Tag 13 Color
+tag_14_col 128 128 128 Tag 14 Color
+tag_15_col 255 165 0 Tag 15 Color
+tag_16_col 75 0 130 Tag 16 Color
