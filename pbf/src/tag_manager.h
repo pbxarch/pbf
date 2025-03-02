@@ -11,6 +11,9 @@ public:
     static void saveTags(const std::string& filename);
     static void handleTagCommand(int argc, char* argv[]);
 
+    // Add this method to access the tags map
+    static const std::map<std::string, std::vector<std::pair<std::string, std::string>>>& getTags();
+
 private:
     static std::map<std::string, std::vector<std::pair<std::string, std::string>>> tags;
 };
